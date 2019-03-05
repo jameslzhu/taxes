@@ -88,10 +88,10 @@ married_joint = parse_schedule(tax_schedule_married_joint)
 married_separate = parse_schedule(tax_schedule_married_separate)
 head = parse_schedule(tax_schedule_head)
 
-print(single)
-print(married_joint)
-print(married_separate)
-print(head)
+print("Single:", single)
+print("Married joint:", married_joint)
+print("Married separate:", married_separate)
+print("Head of household:", head)
 
 # if __name__ == "__main__":
 #     main()
