@@ -43,11 +43,11 @@ class Schedule:
 
 def get_text(url: str, filename: str):
     if os.path.exists(filename):
-        with open(filename, "r") as file_handle:
+        with open(filename, "r", encoding="utf8") as file_handle:
             return file_handle.read()
     else:
         page = requests.get(url)
-        with open(filename, "w") as file_handle:
+        with open(filename, "w", encoding="utf8") as file_handle:
             file_handle.write(page.text)
         return page.text
 
