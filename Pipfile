@@ -4,11 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-"beautifulsoup4" = "*"
-requests = "*"
-lxml = "*"
+"beautifulsoup4" = "~=4.7.1"
+requests = "==2.21.0"
+lxml = "==4.3.3"
 
 [dev-packages]
-
-[requires]
-python_version = "3.6"
