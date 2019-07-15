@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "taxes"
+version = "0.1.0"
+description = ""
+authors = ["James Zhu <jameszhu@berkeley.edu>"]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+beautifulsoup4 = "==4.7.1"
+lxml = "==4.3.3"
+requests = "==2.21.0"
+attrs = "^19.1"
+
+[tool.poetry.dev-dependencies]
+black = "=19.3b0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
